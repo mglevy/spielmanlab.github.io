@@ -469,9 +469,6 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;p&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/tidytuesday_instructions.pdf&#34;&gt;&lt;strong&gt;#TidyTuesday Extra Credit Instructions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;!--
-+ **Join the class RStudio Cloud BIOL01301 Space [here](https://rstudio.cloud/spaces/44379/join?access_code=W5xszVLeEv3YK05165JOaapp5N6cLuzuoWqwj30a)** 
---&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;online-books-and-resources&#34;&gt;Online Books and Resources&lt;/h2&gt;
 &lt;ul&gt;
@@ -489,7 +486,7 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;blockquote&gt;
 &lt;p&gt;Materials are subject to change up until the day of class based on student progress. Any change in deadlines will only be to &lt;em&gt;postpone&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Link to midterm project: &lt;a href=&#34;https://github.com/sjspielman/datascience_midterm/&#34;&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_midterm/&#34;&gt;https://github.com/sjspielman/datascience_midterm/&lt;/a&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Link to midterm project: &lt;a href=&#34;https://github.com/sjspielman/datascience_midterm/&#34;&gt;https://github.com/sjspielman/datascience_midterm/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -609,8 +606,8 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;tr&gt;
 &lt;td&gt;16&lt;/td&gt;
 &lt;td&gt;W 2/26&lt;/td&gt;
-&lt;td&gt;Tidying data with &lt;code&gt;tidyr&lt;/code&gt;| 1. Read &lt;a href=&#34;https://vita.had.co.nz/papers/tidy-data.pdf&#34;&gt;Tidy Data Paper&lt;/a&gt;  &lt;br&gt; 2. Look over &lt;a href=&#34;https://tidyr.tidyverse.org/articles/tidy-data.html&#34;&gt;&lt;code&gt;tidyr&lt;/code&gt; vignette&lt;/a&gt; &lt;strong&gt;MAKE SURE ITS &lt;code&gt;&amp;gt;=tidyr1.0.0&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Tidying data with &lt;code&gt;tidyr&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;1. Read &lt;a href=&#34;https://vita.had.co.nz/papers/tidy-data.pdf&#34;&gt;Tidy Data Paper&lt;/a&gt;  &lt;br&gt; 2. Look over &lt;a href=&#34;https://tidyr.tidyverse.org/articles/tidy-data.html&#34;&gt;&lt;code&gt;tidyr&lt;/code&gt; vignette&lt;/a&gt; &lt;strong&gt;MAKE SURE ITS &lt;code&gt;&amp;gt;=tidyr1.0.0&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -631,28 +628,28 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;td&gt;19&lt;/td&gt;
 &lt;td&gt;W 3/4&lt;/td&gt;
 &lt;td&gt;Introduction to UNIX&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/unix_cheatsheet.html&#34;&gt;Cheatsheet&lt;/a&gt; &lt;br&gt; &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/unix_exerices.html&#34;&gt;Exercises&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;20&lt;/td&gt;
 &lt;td&gt;R 3/5&lt;/td&gt;
-&lt;td&gt;[Conducting a reproducible analyses]&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;Conducting a reproducible analyses with &lt;code&gt;git&lt;/code&gt;/github&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/github_cheatsheet.html&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;Working with untidy and tidy data&lt;/code&gt; assignment due on Blackboard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;21&lt;/td&gt;
 &lt;td&gt;M 3/9&lt;/td&gt;
-&lt;td&gt;Regular expressions&lt;/td&gt;
-&lt;td&gt;1. &lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; vignette&lt;/a&gt; &lt;br&gt; 2. &lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html&#34;&gt;Regular expressions with &lt;code&gt;stringr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Working with strings with &lt;code&gt;stringr&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; vignette&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;22&lt;/td&gt;
 &lt;td&gt;W 3/11&lt;/td&gt;
-&lt;td&gt;Working with strings/regex with &lt;code&gt;stringr&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;Regular expressions&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html&#34;&gt;Regular expressions with &lt;code&gt;stringr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
