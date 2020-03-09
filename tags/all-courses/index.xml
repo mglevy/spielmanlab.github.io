@@ -641,8 +641,8 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;tr&gt;
 &lt;td&gt;21&lt;/td&gt;
 &lt;td&gt;M 3/9&lt;/td&gt;
-&lt;td&gt;Working with strings with &lt;code&gt;stringr&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; vignette&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_stringr.pdf&#34;&gt;Working with strings with &lt;code&gt;stringr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1. &lt;a href=&#34;https://stringr.tidyverse.org/reference/index.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; reference&lt;/a&gt; &lt;br&gt; 2.&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; vignette&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
