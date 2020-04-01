@@ -471,18 +471,23 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;li&gt;Introduction to linear regression: &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/lm_tutorial.html&#34;&gt;Tutorial&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/Mlkm9L32NpQ&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/9/20 at 11:59 pm&lt;/em&gt;
+&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/9/20 at 11:59 pm&lt;/em&gt; on Blackboard
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/08-intro-regression.Rmd&#34;&gt;Rmarkdown file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/08-intro-regression.html&#34;&gt;HTML version&lt;/a&gt;
 &lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-of-4620&#34;&gt;Week of 4/6/20&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Lecture videos and associated materials
 &lt;ul&gt;
-&lt;li&gt;Linear regression and model selection: &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/lm_model_selection.html&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linear regression II and concepts in model selection: &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/lm_model_selection.html&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Model evaluation, Part 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/16/20 at 11:59 pm&lt;/em&gt;
+&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/16/20 at 11:59 pm&lt;/em&gt; on Blackboard
 &lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-of-41320&#34;&gt;Week of 4/13/20&lt;/h4&gt;
@@ -493,7 +498,7 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;li&gt;Model evaluation, Part 2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/23/20 at 11:59 pm&lt;/em&gt;
+&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/23/20 at 11:59 pm&lt;/em&gt; on Blackboard
 &lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-of-42020&#34;&gt;Week of 4/20/20&lt;/h4&gt;
@@ -503,7 +508,7 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;li&gt;Clustering and dimension reduction&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/30/20 at 11:59 pm&lt;/em&gt; (there are TWO assignments due on this day!)
+&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/30/20 at 11:59 pm&lt;/em&gt; on Blackboard (there are TWO assignments due on this day!)
 &lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-of-42720&#34;&gt;Week of 4/27/20&lt;/h4&gt;
@@ -518,7 +523,7 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;/li&gt;
 &lt;li&gt;Assignments
 &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Final assignment proposal&amp;rdquo; due &lt;em&gt;Thursday 4/30/20 at 11:59 pm&lt;/em&gt;. (This assignment is not graded on its own, but it counts as 20% of your final assignment grade).&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Final assignment proposal&amp;rdquo; due &lt;em&gt;Thursday 4/30/20 at 11:59 pm&lt;/em&gt; on Blackboard. (This assignment is not graded on its own, but it counts as 20% of your final assignment grade).&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Final assignment&amp;rdquo; (counts as DOUBLE assignment!!) due &lt;em&gt;Tuesday 5/12/20 at 11:59 pm&lt;/em&gt;. &lt;strong&gt;Absolutely NO extensions are possible for this submission due to University grade deadlines.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
