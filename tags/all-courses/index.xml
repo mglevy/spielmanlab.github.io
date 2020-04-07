@@ -64,7 +64,7 @@
 &lt;li&gt;Lecture videos and associated materials
 &lt;ul&gt;
 &lt;li&gt;Phylogenetics II: &lt;a href=&#34;https://youtu.be/l8D4J_i3WFc&#34;&gt;Video&lt;/a&gt; and &lt;a href=&#34;slides/slides_phylo_remote2.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Phylogenetics Lab: Video forthcoming (no assignment uses this, but it may help to further clarify and understand phylogenies!) with &lt;a href=&#34;https://sjspielman.shinyapps.io/biol01104_phylo_lab/&#34;&gt;website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Phylogenetics &amp;ldquo;Lab&amp;rdquo;: &lt;a href=&#34;https://youtu.be/yhhQMBrdFa4&#34;&gt;Video&lt;/a&gt; with &lt;a href=&#34;https://sjspielman.shinyapps.io/biol01104_phylo_lab/&#34;&gt;associated website&lt;/a&gt; (no assignment &lt;em&gt;specifically&lt;/em&gt; uses this, this video will help to further clarify and understand phylogenies building and mapping on phylogenies!)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Background reading &lt;strong&gt;these are REALLY HELPFUL!!! Make sure to read/watch these too!&lt;/strong&gt;:
@@ -97,17 +97,21 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-of-42020&#34;&gt;Week of 4/20/20&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Lecture videos and associated materials
+&lt;li&gt;
+&lt;p&gt;Lecture videos and associated materials&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Pathogen evolution and phylodynamics: Video and materials&lt;/li&gt;
+&lt;li&gt;Pathogen evolution and phylodynamics: Video and materials.&lt;/li&gt;
 &lt;li&gt;Origins of life: Video and slides&lt;/li&gt;
+&lt;li&gt;IMPORTANT NOTE: &lt;strong&gt;THIS WEDESNDAY&lt;/strong&gt;, rather than a live HW session, we will have a LIVE LECTURE(attendance optional, it will still be recorded) to discuss &lt;strong&gt;phylogenetics of COVID&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Assignments
+&lt;li&gt;
+&lt;p&gt;Assignments&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&amp;ldquo;Concepts in Natural Selection&amp;rdquo; (embedded as Blackboard &amp;ldquo;quiz&amp;rdquo;) due Thursday 4/23/20 at 11:59 pm.
 &lt;ul&gt;
 &lt;li&gt;This assignment is &lt;em&gt;optional to complete&lt;/em&gt;. It is associated with Rowan core &amp;ldquo;before/after&amp;rdquo; assessments, but due to COVID, this university-wide assessment will not be done Spring 2020. If you do this assignment, it will be counted towards your grade. If you do not do this assignment, you will be automatically excempt from it, and it will not count towards your grade at all. &lt;em&gt;However&lt;/em&gt;, if you choose not to do this assignment, be aware that each other assignment will be worth a bit more towards your overall grade! Therefore, doing this HW is a possible option if you want all your other assignments to count for slightly less.&lt;/li&gt;
+&lt;li&gt;See note above: Wednesday will not be used for completing this HW, but rather for an additional lecture on COVID.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Pathogen evolution assignment&amp;rdquo; due Sunday 4/26/20 at 11:59 pm&lt;/li&gt;
@@ -515,16 +519,20 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 &lt;ul&gt;
 &lt;li&gt;Lecture videos and associated materials
 &lt;ul&gt;
-&lt;li&gt;Writing R functions and some ~light programming~???&lt;/li&gt;
-&lt;li&gt;Writing R packages ??&lt;/li&gt;
-&lt;li&gt;Return to regular expressions ??&lt;/li&gt;
-&lt;li&gt;WHAT DO YOU WANT TO LEARN GUYS ?? Tell me in Slack &lt;code&gt;#requested-topics&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to Shiny Part I&lt;/li&gt;
+&lt;li&gt;Introduction to Shiny Part II&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/tutorial/&#34;&gt;RStudio Shiny Tutorial&lt;/a&gt; (this is &lt;em&gt;really&lt;/em&gt; good)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Assignments
 &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Final assignment proposal&amp;rdquo; due &lt;em&gt;Thursday 4/30/20 at 11:59 pm&lt;/em&gt; on Blackboard. (This assignment is not graded on its own, but it counts as 20% of your final assignment grade).&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Final assignment&amp;rdquo; (counts as DOUBLE assignment!!) due &lt;em&gt;Tuesday 5/12/20 at 11:59 pm&lt;/em&gt;. &lt;strong&gt;Absolutely NO extensions are possible for this submission due to University grade deadlines.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_final_assignment&#34;&gt;Final Assignment&lt;/a&gt; (Fork to your github account!)
+&lt;ul&gt;
+&lt;li&gt;Counts as TWO assignment grades&lt;/li&gt;
+&lt;li&gt;Due &lt;em&gt;Tuesday 5/12/20 at 11:59 pm as github PR&lt;/em&gt;. &lt;strong&gt;Absolutely NO extensions are possible for this submission due to University grade deadlines.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;PLEASE&lt;/strong&gt; attend the live Thursday session - we will do about 1/3 of the final assignment TOGETHER!&lt;/em&gt; You don&#39;t want to miss this!!!!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
