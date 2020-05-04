@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="HYpothesis testing using PHYlogenies (HyPhy) is a scriptable, open-source package for fitting a broad range of evolutionary models to multiple sequence alignments, and for conducting subsequent parameter estimation and hypothesis testing, primarily in the maximum likelihood statistical framework. It has become a popular choice for characterizing various aspects of the evolutionary process: natural selection, evolutionary rates, recombination, and coevolution. The 2.5 release (available from [www.hyphy.org](www.hyphy.org)) includes a completely re-engineered computational core and analysis library that introduces new classes of evolutionary models and statistical tests, delivers substantial performance and stability enhancements, improves usability, streamlines end-to-end analysis workflows, makes it easier to develop custom analyses, and is mostly backward compatible with previous HyPhy releases.">
+  <meta name="description" content="It is regarded as best practice in phylogenetic reconstruction to perform relative model selection to determine an appropriate evolutionary model for the data. This procedure ranks a set of candidate models according to their goodness of fit to the data, commonly using an information theoretic criterion. Users then specify the best-ranking model for inference. Although it is often assumed that better-fitting models translate to increase accuracy, recent studies have shown that the specific model employed may not substantially affect inferences. We examine whether there is a systematic relationship between relative model fit and topological inference accuracy in protein phylogenetics, using simulations and real sequences. Simulations employed site-heterogeneous mechanistic codon models that are distinct from protein-level phylogenetic inference models, allowing us to investigate how protein models performs when they are misspecified to the data, as will be the case for any real sequence analysis. We broadly find that phylogenies inferred across models with vastly different fits to the data produce highly consistent topologies. We additionally find that all models infer similar proportions of false-positive splits, raising the possibility that all available models of protein evolution are similarly misspecified. Moreover, we find that the parameter-rich GTR (general time reversible) model, whose amino acid exchangeabilities are free parameters, performs similarly to models with fixed exchangeabilities, although the inference precision associated with GTR models was not examined. We conclude that, although relative model selection may not hinder phylogenetic analysis on protein data, it may not offer specific predictable improvements and is not a reliable proxy for accuracy.">
 
   
-  <link rel="alternate" hreflang="en-us" href="../publication/2019_kosakovskyetal_mbe.html">
+  <link rel="alternate" hreflang="en-us" href="../publication/2020_spielman_mbe.html">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="../img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="../img/icon-192.png">
 
-  <link rel="canonical" href="../publication/2019_kosakovskyetal_mbe.html">
+  <link rel="canonical" href="../publication/2020_spielman_mbe.html">
 
   
   
@@ -123,15 +123,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Spielman Lab">
-  <meta property="og:url" content="/publication/2019_kosakovskyetal_mbe.html">
-  <meta property="og:title" content="HyPhy 2.5 – a customizable platform for evolutionary hypothesis testing using phylogenies | Spielman Lab">
-  <meta property="og:description" content="HYpothesis testing using PHYlogenies (HyPhy) is a scriptable, open-source package for fitting a broad range of evolutionary models to multiple sequence alignments, and for conducting subsequent parameter estimation and hypothesis testing, primarily in the maximum likelihood statistical framework. It has become a popular choice for characterizing various aspects of the evolutionary process: natural selection, evolutionary rates, recombination, and coevolution. The 2.5 release (available from [www.hyphy.org](www.hyphy.org)) includes a completely re-engineered computational core and analysis library that introduces new classes of evolutionary models and statistical tests, delivers substantial performance and stability enhancements, improves usability, streamlines end-to-end analysis workflows, makes it easier to develop custom analyses, and is mostly backward compatible with previous HyPhy releases."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/publication/2020_spielman_mbe.html">
+  <meta property="og:title" content="Relative Model Fit Does Not Predict Topological Accuracy in Single-Gene Protein Phylogenetics | Spielman Lab">
+  <meta property="og:description" content="It is regarded as best practice in phylogenetic reconstruction to perform relative model selection to determine an appropriate evolutionary model for the data. This procedure ranks a set of candidate models according to their goodness of fit to the data, commonly using an information theoretic criterion. Users then specify the best-ranking model for inference. Although it is often assumed that better-fitting models translate to increase accuracy, recent studies have shown that the specific model employed may not substantially affect inferences. We examine whether there is a systematic relationship between relative model fit and topological inference accuracy in protein phylogenetics, using simulations and real sequences. Simulations employed site-heterogeneous mechanistic codon models that are distinct from protein-level phylogenetic inference models, allowing us to investigate how protein models performs when they are misspecified to the data, as will be the case for any real sequence analysis. We broadly find that phylogenies inferred across models with vastly different fits to the data produce highly consistent topologies. We additionally find that all models infer similar proportions of false-positive splits, raising the possibility that all available models of protein evolution are similarly misspecified. Moreover, we find that the parameter-rich GTR (general time reversible) model, whose amino acid exchangeabilities are free parameters, performs similarly to models with fixed exchangeabilities, although the inference precision associated with GTR models was not examined. We conclude that, although relative model selection may not hinder phylogenetic analysis on protein data, it may not offer specific predictable improvements and is not a reliable proxy for accuracy."><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-09-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-04-02T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-09-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-04-02T00:00:00&#43;00:00">
   
 
   
@@ -143,7 +143,7 @@
 
 
 
-  <title>HyPhy 2.5 – a customizable platform for evolutionary hypothesis testing using phylogenies | Spielman Lab</title>
+  <title>Relative Model Fit Does Not Predict Topological Accuracy in Single-Gene Protein Phylogenetics | Spielman Lab</title>
 
 </head>
 
@@ -476,7 +476,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">HyPhy 2.5 – a customizable platform for evolutionary hypothesis testing using phylogenies</h1>
+  <h1 itemprop="name">Relative Model Fit Does Not Predict Topological Accuracy in Single-Gene Protein Phylogenetics</h1>
 
   
 
@@ -485,8 +485,8 @@
 
 
 
-<meta content="2019-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2020-04-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-04-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -499,7 +499,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/sergei-l.-kosakovsky-pond.html">Sergei L. Kosakovsky Pond</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/art-f.-y.-poon.html">Art F. Y. Poon</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/ryan-velazquez.html">Ryan Velazquez</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/steven-weaver.html">Steven Weaver</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/n.-lance-hepler.html">N. Lance Hepler</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/ben-murrell.html">Ben Murrell</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/stephen-d.-shank.html">Stephen D. Shank</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/brittany-rife-magalis.html">Brittany Rife Magalis</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/dave-bouvier.html">Dave Bouvier</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/anton-nekrutenko.html">Anton Nekrutenko</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/sadie-wisotsky.html">Sadie Wisotsky</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/stephanie-j.-spielman.html"><strong>Stephanie J. Spielman</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/simon-d.-w.-frost.html">Simon D. W. Frost</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/spencer-v.-muse.html">Spencer V. Muse</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="../authors/stephanie-j.-spielman.html"><strong>Stephanie J. Spielman</strong></a></span>
 
   </div>
   
@@ -511,7 +511,7 @@
     
       
     
-    <time>2019</time>
+    <time>2020</time>
   </span>
   
 
@@ -539,7 +539,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/2019_kosakovskyetal_mbe.html&amp;text=HyPhy%202.5%20%e2%80%93%20a%20customizable%20platform%20for%20evolutionary%20hypothesis%20testing%20using%20phylogenies" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/2020_spielman_mbe.html&amp;text=Relative%20Model%20Fit%20Does%20Not%20Predict%20Topological%20Accuracy%20in%20Single-Gene%20Protein%20Phylogenetics" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -552,7 +552,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/2019_kosakovskyetal_mbe.html&amp;t=HyPhy%202.5%20%e2%80%93%20a%20customizable%20platform%20for%20evolutionary%20hypothesis%20testing%20using%20phylogenies" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/2020_spielman_mbe.html&amp;t=Relative%20Model%20Fit%20Does%20Not%20Predict%20Topological%20Accuracy%20in%20Single-Gene%20Protein%20Phylogenetics" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -565,7 +565,7 @@
       
       
       <li>
-        <a href="mailto:?subject=HyPhy%202.5%20%e2%80%93%20a%20customizable%20platform%20for%20evolutionary%20hypothesis%20testing%20using%20phylogenies&amp;body=/publication/2019_kosakovskyetal_mbe.html" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Relative%20Model%20Fit%20Does%20Not%20Predict%20Topological%20Accuracy%20in%20Single-Gene%20Protein%20Phylogenetics&amp;body=/publication/2020_spielman_mbe.html" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -578,7 +578,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/2019_kosakovskyetal_mbe.html&amp;title=HyPhy%202.5%20%e2%80%93%20a%20customizable%20platform%20for%20evolutionary%20hypothesis%20testing%20using%20phylogenies" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/2020_spielman_mbe.html&amp;title=Relative%20Model%20Fit%20Does%20Not%20Predict%20Topological%20Accuracy%20in%20Single-Gene%20Protein%20Phylogenetics" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -591,7 +591,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=HyPhy%202.5%20%e2%80%93%20a%20customizable%20platform%20for%20evolutionary%20hypothesis%20testing%20using%20phylogenies%20/publication/2019_kosakovskyetal_mbe.html" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Relative%20Model%20Fit%20Does%20Not%20Predict%20Topological%20Accuracy%20in%20Single-Gene%20Protein%20Phylogenetics%20/publication/2020_spielman_mbe.html" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -604,7 +604,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/2019_kosakovskyetal_mbe.html&amp;title=HyPhy%202.5%20%e2%80%93%20a%20customizable%20platform%20for%20evolutionary%20hypothesis%20testing%20using%20phylogenies" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/2020_spielman_mbe.html&amp;title=Relative%20Model%20Fit%20Does%20Not%20Predict%20Topological%20Accuracy%20in%20Single-Gene%20Protein%20Phylogenetics" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -648,7 +648,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://raw.githubusercontent.com/sjspielman/publications/master/2019_Kosakovskyetal_MBE.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://raw.githubusercontent.com/sjspielman/publications/master/2020_Spielman_MBE.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -675,7 +675,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/veg/hyphy" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/spielmanlab/aa_phylo_fit_topology" target="_blank" rel="noopener">
   Repository
 </a>
 
@@ -687,7 +687,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1093/molbev/msz197" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1093/molbev/msaa075" target="_blank" rel="noopener">
   Link to publisher
 </a>
 
@@ -704,7 +704,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">HYpothesis testing using PHYlogenies (HyPhy) is a scriptable, open-source package for fitting a broad range of evolutionary models to multiple sequence alignments, and for conducting subsequent parameter estimation and hypothesis testing, primarily in the maximum likelihood statistical framework. It has become a popular choice for characterizing various aspects of the evolutionary process: natural selection, evolutionary rates, recombination, and coevolution. The 2.5 release (available from <a href="www.hyphy.org"><a href="http://www.hyphy.org">www.hyphy.org</a></a>) includes a completely re-engineered computational core and analysis library that introduces new classes of evolutionary models and statistical tests, delivers substantial performance and stability enhancements, improves usability, streamlines end-to-end analysis workflows, makes it easier to develop custom analyses, and is mostly backward compatible with previous HyPhy releases.</p>
+    <p class="pub-abstract" itemprop="text">It is regarded as best practice in phylogenetic reconstruction to perform relative model selection to determine an appropriate evolutionary model for the data. This procedure ranks a set of candidate models according to their goodness of fit to the data, commonly using an information theoretic criterion. Users then specify the best-ranking model for inference. Although it is often assumed that better-fitting models translate to increase accuracy, recent studies have shown that the specific model employed may not substantially affect inferences. We examine whether there is a systematic relationship between relative model fit and topological inference accuracy in protein phylogenetics, using simulations and real sequences. Simulations employed site-heterogeneous mechanistic codon models that are distinct from protein-level phylogenetic inference models, allowing us to investigate how protein models performs when they are misspecified to the data, as will be the case for any real sequence analysis. We broadly find that phylogenies inferred across models with vastly different fits to the data produce highly consistent topologies. We additionally find that all models infer similar proportions of false-positive splits, raising the possibility that all available models of protein evolution are similarly misspecified. Moreover, we find that the parameter-rich GTR (general time reversible) model, whose amino acid exchangeabilities are free parameters, performs similarly to models with fixed exchangeabilities, although the inference precision associated with GTR models was not examined. We conclude that, although relative model selection may not hinder phylogenetic analysis on protein data, it may not offer specific predictable improvements and is not a reliable proxy for accuracy.</p>
     
 
     
@@ -734,7 +734,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Molecular Biology and Evolution</em> 37(1): 295-299</div>
+          <div class="col-12 col-md-9"><em>Molecular Biology and Evolution</em> In Press</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -777,7 +777,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="../authors/sergei-l.-kosakovsky-pond.html"></a></h5>
+      <h5 class="card-title" itemprop="name"><a href="../authors/stephanie-j.-spielman.html"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
