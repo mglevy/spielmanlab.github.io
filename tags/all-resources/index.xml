@@ -77,6 +77,14 @@
     </item>
     
     <item>
+      <title>learnlatex.org</title>
+      <link>/project/learn_latex.html</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/project/learn_latex.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Practical Computing for Biologists</title>
       <link>/project/pcfb.html</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -97,6 +105,14 @@
       <link>/project/r4ds.html</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/project/r4ds.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R for Data Science</title>
+      <link>/project/rstudio_edu.html</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/project/rstudio_edu.html</guid>
       <description></description>
     </item>
     
