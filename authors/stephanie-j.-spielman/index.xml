@@ -5,12 +5,21 @@
     <link>/authors/stephanie-j.-spielman.html</link>
       <atom:link href="/authors/stephanie-j.-spielman/index.xml" rel="self" type="application/rss+xml" />
     <description>**Stephanie J. Spielman**</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>**Stephanie J. Spielman**</title>
       <link>/authors/stephanie-j.-spielman.html</link>
     </image>
+    
+    <item>
+      <title>dragon: A New Tool for Exploring Redox Evolution Preserved in the Mineral Record</title>
+      <link>/publication/2020_spielmanmoore_eartharxiv.html</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020_spielmanmoore_eartharxiv.html</guid>
+      <description>&lt;p&gt;&amp;lt;!-More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code. &amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Relative Model Fit Does Not Predict Topological Accuracy in Single-Gene Protein Phylogenetics</title>
