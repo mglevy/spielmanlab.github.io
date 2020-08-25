@@ -5,12 +5,112 @@
     <link>/tags/all-courses.html</link>
       <atom:link href="/tags/all-courses/index.xml" rel="self" type="application/rss+xml" />
     <description>All Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>All Courses</title>
       <link>/tags/all-courses.html</link>
     </image>
+    
+    <item>
+      <title>Data Science for Biologists</title>
+      <link>/courses/datascience_for_biologists/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/courses/datascience_for_biologists/</guid>
+      <description>&lt;p&gt;This website contains all materials used in BIOL 01301 Fall 2020 at Rowan University with Dr. Spielman. This course meets remotely Monday and Thursday 2-3:15 pm and Wednesday 3:30-6:15 pm. &lt;strong&gt;Zoom links can be found in &lt;a href=&#34;https://rowan.instructure.com/&#34;&gt;Canvas&lt;/a&gt;. All grading and assignment submissions (unless otherwise stated) will be hosted on &lt;a href=&#34;https://rowan.instructure.com/&#34;&gt;Canvas&lt;/a&gt;, but course materials will be posted on this site and/or within the &lt;a href=&#34;https://rstudio.cloud&#34;&gt;rstudio.cloud&lt;/a&gt; BIOL01301 workspace.&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;key-documents-and-links&#34;&gt;Key documents and links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./logistics/google_calendar_instructions_fall2020_DS.pdf&#34;&gt;Instructions for using google calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./logistics/Fall2020_Spielman_Syllabus_DS.pdf&#34;&gt;Download the course syllabus&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./regrade_policy.docx&#34;&gt;Download the regrade form&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/tidytuesday_instructions.pdf&#34;&gt;#TidyTuesday Extra Credit Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;online-books-and-resources&#34;&gt;Online Books and Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.t4rstats.com/&#34;&gt;Twitter for R programmers&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Geared towards programmers but serves as a great general &amp;ldquo;welcome to the Twitter #rstats community&amp;rdquo;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://serialmentor.com/dataviz/&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; by Claus O. Wilke&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; by Garrett Grolemund and Hadley Wickham&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://socviz.co/&#34;&gt;Data Visualization: A practical Introduction&lt;/a&gt; by Kieran Healy&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;&lt;code&gt;tidyverse&lt;/code&gt; homepage, official documentation, and cheatsheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stat545.com/&#34;&gt;STAT545 Resources (&lt;strong&gt;EXCELLENT&lt;/strong&gt; background)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rafalab.github.io/dsbook/&#34;&gt;Introduction to Data Science e-book&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://resources.rstudio.com/&#34;&gt;RStudio Resources (all levels of videos/tutorials)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://callingbullshit.org/&#34;&gt;Calling Bullshit Course Website&lt;/a&gt; by Carl Bergstrom and Jevin West&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt; 
+&lt;h2 id=&#34;class-schedule-and-materials&#34;&gt;Class Schedule and Materials&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we&#39;ll be doing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;| No. | Day/Date |&lt;div style=&#34;width:250px&#34;&gt;Topic and materials&lt;/div&gt; | Link to in-class exercises | Assignments
+&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+1     | W 9/2   | Introduction, logistics, and getting to know each other | None | None
+2     | R 9/3   | More class logistics: RStudio Cloud setup | None |
+3     | W 9/9   | Introduction to R | TBD | &lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Introduction to R&amp;rdquo; due TBD &lt;!--Wednesday 9/16/20 by 11:59 pm to Canvas--&gt;
+4     | R 9/10  | Introduction to R continued | TBD |
+5     | M 9/14  | Introduction to R continued | None |
+6     | W 9/16  | Introduction to the &amp;ldquo;grammar of graphics&amp;rdquo;  | TBD
+7     | R 9/17  | Grammar of graphics | TBD | &lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Grammar of graphics&amp;rdquo; due TBD &lt;!--Sunday 9/21/20 by 11:59 pm to Canvas--&gt;
+8     | M 9/21  | Introduction to data &lt;code&gt;ggplot2&lt;/code&gt; | TBD |
+9     | W 9/23  | Introduction to data &lt;code&gt;ggplot2&lt;/code&gt; | TBD |
+10    | R 9/24  | Communicating clearly with figures | TBD |  &lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Introduction to &lt;code&gt;ggplot2&lt;/code&gt;&amp;rdquo; due TBD &lt;!--Wednesday 9/30/20 by 11:59 pm to Canvas--&gt;&lt;/p&gt;
+&lt;!--
+
+
+
+2     | R 1/23   | [Introduction to R and RStudio](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/01-introduction-base-R.html)| None | None
+3     | M 1/27   | [Types of data and visualizations, I](./slides/slides_introdata.pdf)  | Two blog posts on types of data: &lt;br&gt; 1. [Towards Data Science](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee) &lt;br&gt; 2. [Scary Scientist](http://scaryscientist.blogspot.com/2015/02/classification-of-data-types.html)   | None
+4     | W 1/29   | Types of data and visualizations, II | 1. Read chapters 5, 6, 7, and 10 from &#34;Fundamentals of Data Visualization&#34; &lt;br&gt; 2. [Blog post on comparing plot types](https://rpubs.com/crazyhottommy/sina-plot)
+5     | R 1/30   | [Introduction to `ggplot2`](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/02-introduction-ggplot2.html) &lt;br&gt;&lt;br&gt; [R script template](https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/02-introduction-ggplot2-script-template.R)  | None |
+6     | M 2/3    | Communicating with (in)effective visualizations | Watch [&#34;Lecture 6: Data Visualization&#34; Videos](https://callingbullshit.org/videos.html) | [Evaluating Data Visualization Assignment](./assignments/viz_critique_assignment.pdf)
+7     | W 2/5    | [Introduction to RMarkdown](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/03-introduction-rmarkdown.html) | None | None
+8     | R 2/6    | [More practice with `ggplot2`](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/04-more-ggplot2.html) | Read chapter 21 from &#34;Fundamentals of Data Visualization&#34; | `Introduction to ggplot2` assignment due on Blackboard as an R script.
+9     | M 2/10   | Reading, writing, and creating datasets | None | None
+10    | W 2/12   | Manipulating data with `dplyr` I | Background resources: &lt;br&gt; 1. [`dplyr` vignette](https://dplyr.tidyverse.org/articles/dplyr.html) &lt;br&gt; 2. [`dplyr` Intro from STAT545](https://stat545.com/dplyr-intro.html) &lt;br&gt; 3. [GET MORE PRACTICE HERE!](https://rgup.gitlab.io/research_cycle/04_dplyr.html) | None
+11    | R 2/13   | [Data manipulation with `dplyr`](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/05-introduction-dplyr.html) | None | `More practice with ggplot2` assignment due on Blackboard as an Rmarkdown file (NOT the knitted HTML and/or PDF!!)
+12    | M 2/17   | [Best practices and other miscellany](https://github.com/sjspielman/datascience_for_biologists/raw/master/slides/slides_statgeom_bestpractices.pdf) | [Watch rstudio::conf 2020 talk on debugging](https://resources.rstudio.com/rstudio-conf-2020/object-of-type-closure-is-not-subsettable-jenny-bryan) with [&#34;cheatsheet&#34;](https://github.com/sjspielman/datascience_for_biologists/raw/master/materials/jenny_bryan_talk2020.pdf) | None
+13    | W 2/19   | Manipulating data with `dplyr` II|  Background resources &lt;br&gt; 1. [`dplyr` two-table vignette](https://dplyr.tidyverse.org/articles/two-table.html) &lt;br&gt; 2. [Ch 14-15 from STAT545](https://stat545.com/multiple-tibbles.html) &lt;br&gt; 3. [GET MORE PRACTICE HERE](https://rgup.gitlab.io/research_cycle/05_joins.html) | None
+14    | R 2/20   | [Data manipulation with `dplyr` II](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/06-more-wrangling.html) | None | `Data manipulation with dplyr` assignment due on Blackboard as an Rmd file.
+15    | M 2/24   | Regroup and Project Introduction | None | None
+16    | W 2/26   | Tidying data with `tidyr`| 1. Read [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf)  &lt;br&gt; 2. Look over [`tidyr` vignette](https://tidyr.tidyverse.org/articles/tidy-data.html) **MAKE SURE ITS `&gt;=tidyr1.0.0`**
+17    | R 2/27   | Working with tidy and untidy data  &lt;br&gt; [Link to full materials](https://github.com/sjspielman/datascience_for_biologists/tree/master/tidyr_lab_materials) &lt;br&gt; HINT: use `read_csv2()` for the planets question!! | None | `Data manipulation with dplyr II` assignment due on Blackboard
+18    | M 3/2    | Introduction to Version Control with GitHub, and reproducibility | 0. [What is VC?](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) ; [Tutorial - IGNORE BRANCHES](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/) 1. [Data sharing](https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/parasite_editorial_NEJM_nonsense.pdf) editorial from NEJM &lt;br&gt; 2. [One of many rebuttals to NEJM](https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/parasite_rebuttal_greene.pdf) &lt;br&gt; 3. [Another rebuttal](https://www.statnews.com/2016/01/26/research-parasites-nejm/) &lt;br&gt; 4. [Concepts in reproducibility and peer review](https://blogs.plos.org/plos/2020/01/peer-review-in-service-of-open-science/) &lt;br&gt; 5. [Reflections on sci-hub](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410/) &lt;br&gt; 6. [The state of affairs is grim](https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-020-0552-2) &lt;br&gt; 7. [But could be hopefully improving!](https://www.nature.com/articles/d41586-020-00309-9) &lt;br&gt; 8. [Michael Hoffman has good thoughts](https://hoffman.bitbucket.io/2019/nih-data-management.html) &lt;br&gt; 9.Two twitter threads that showcase what bothers Dr. Spielman the most: [one](https://twitter.com/sexchrlab/status/1224918781341777920) and [two](https://twitter.com/bhaibeka/status/1212777404256706560) |
+19    | W 3/4    | Introduction to UNIX   | [Cheatsheet](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/unix_cheatsheet.html) &lt;br&gt; [Exercises](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/unix_exerices.html) | None
+20    | R 3/5    | [Conducting a reproducible analyses with `git`/github](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/github_exercise.html) | [Cheatsheet](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/github_cheatsheet.html)  | None
+21    | M 3/9    | [Working with strings with `stringr`](https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_stringr.pdf) | 1. [`stringr` reference](https://stringr.tidyverse.org/reference/index.html) &lt;br&gt; 2.[`stringr` vignette](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html)   | None
+
+
+22    | W 3/11   | Regular expressions | [Regular expressions with `stringr`](https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html) | None
+23    | R 3/12   | Midterm project &#34;study hall&#34; | None | None
+--    | M 3/16 - F 3/20 | **SPRING BREAK!** | None |  **Midterm Project due by SUNDAY 3/15 at 11:59 pm as PULL REQUEST for full credit** &lt;br&gt; **Due by Wednesday 3/18 at 11:59 pm as PULL REQUEST for 10% deduction** &lt;br&gt; **Or, due never for no credit. Not recommended.**  
+24    | M 3/23  | Introduction to hypothesis tests and modeling
+25    | W 3/25  | Permutation and randomization testing
+26    | R 3/26  | [Analyzing data with permutation tests] |  TBD | At long last, `Working with untidy and tidy data` assignment due on Blackboard by 10 am
+27    | M 3/29  | Linear modeling I 
+28    | W 4/1   | Linear modeling II
+29    | R 4/2   | [Analyzing data with linear models]
+30    | M 4/6   | Binary classification and logistic regression
+31    | W 4/8   | Strategies for model evaluation
+32    | R 4/9   | [Analyzing data with logistic regression]
+33    | M 4/13  | Classification: Approaches to clustering data
+34    | W 4/15  | Classification: Approaches to dimension reduction
+35    | R 4/16  | [Clustering and dimension reduction Lab]
+36    | M 4/20  | Communication and reproducibility with R packages
+37    | W 4/22  | Communication with blogposts
+38    | R 4/23  | [Communication with shiny]
+39    | M 4/27  | Grab bag!
+40    | W 4/29  | *Open day to work on final project*
+--    | W 5/6   | **Final project due and &#34;presentations&#34; party**
+--&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Evolution and Scientific Inquiry</title>
@@ -35,7 +135,7 @@
 &lt;h2 id=&#34;post-spring-break-class-schedule-and-materials&#34;&gt;Post-Spring Break Class Schedule and Materials&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Note: Assignments designated &amp;ldquo;embedded in Blackboard&amp;rdquo; can be reached under Blackboard &amp;ndash;&amp;gt; Content and completed within Blackboard. Rest assured they are NOT tests!&lt;/p&gt;
-&lt;p&gt;Materials are subject to change up until the Monday of the given week. Below is a ROUGH OUTLINE of what we&amp;rsquo;ll be doing.&lt;/p&gt;
+&lt;p&gt;Materials are subject to change up until the Monday of the given week. Below is a ROUGH OUTLINE of what we&#39;ll be doing.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;week-of-33020&#34;&gt;Week of 3/30/20&lt;/h4&gt;
 &lt;ul&gt;
@@ -128,7 +228,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.theatlantic.com/author/ed-yong/&#34;&gt;Articles by Ed Yong&lt;/a&gt;, science writer at The Atlantic. In my personal opinion, his coverage of coronavirus has been excellent.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.nytimes.com/interactive/2020/04/03/science/coronavirus-genome-bad-news-wrapped-in-protein.html&#34;&gt;&amp;ldquo;Bad News Wrapped in Protein: Inside the Coronavirus Genome&amp;rdquo;&lt;/a&gt;, excellent New York Times article that gives a tour of the coronavirus genome.
 &lt;ul&gt;
-&lt;li&gt;NOTE: You will learn that we don&amp;rsquo;t know what the function of most proteins in the genome is. In fact, we don&amp;rsquo;t know how most proteins in most species work either! For even the best-studied organisms, we don&amp;rsquo;t know what as many as 20% of its proteins &amp;ldquo;do&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;NOTE: You will learn that we don&#39;t know what the function of most proteins in the genome is. In fact, we don&#39;t know how most proteins in most species work either! For even the best-studied organisms, we don&#39;t know what as many as 20% of its proteins &amp;ldquo;do&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.buzzfeednews.com/article/stephaniemlee/coronavirus-antibody-test-santa-clara-los-angeles-stanford&#34;&gt;&amp;ldquo;Two Antibody Studies Say Coronavirus Infections Are More Common Than We Think. Scientists Are Mad.&amp;quot;&lt;/a&gt;&lt;/li&gt;
@@ -210,7 +310,7 @@
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;M 1/27&lt;/td&gt;
 &lt;td&gt;Scientific Method: Experimental design&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;worksheets/hyp_exp_worksheet.pdf&#34;&gt;Continue Friday&amp;rsquo;s worksheet&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;worksheets/hyp_exp_worksheet.pdf&#34;&gt;Continue Friday&#39;s worksheet&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;Last day of regular course add/drop period&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -289,7 +389,7 @@
 &lt;tr&gt;
 &lt;td&gt;13&lt;/td&gt;
 &lt;td&gt;W 2/19&lt;/td&gt;
-&lt;td&gt;Continue last Wednesday&amp;rsquo;s slides: Evolution and misconceptions!&lt;/td&gt;
+&lt;td&gt;Continue last Wednesday&#39;s slides: Evolution and misconceptions!&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
@@ -440,351 +540,6 @@ Exam 3 Review and Discussion      | None | Submit **1-2** review questions to Bl
 40 | W 4/29 | [Human Origins and Evolution](slides/slides_humanevolution.pdf)          | Optional readings:  1. [Fantastic blog-posted from world-renowned human geneticist Ewan Birney on &#34;Race, Genetics, and Pseudoscience&#34;](http://ewanbirney.com/2019/10/race-genetics-and-pseudoscience-an-explainer.html)  2. [NY Times article on one of the most recently discovered ancient human fossils](https://www.nytimes.com/2019/04/10/science/homo-luzonensis-philippines-evolution.html)  3. [First discovery of Neanderthal-Denisovan hybrid](https://www.nature.com/articles/d41586-018-06004-0) | None | None
 41 | F 5/1  | *Optional* Final Exam Review Session  | Submit Review Assignment on Blackboard.  Make sure Rowan Passport is completed and submitted to Blackboard by **TUESDAY 12/10 at 11:59 pm** to Blackboard | None | None
 --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Science for Biologists</title>
-      <link>/courses/datascience_for_biologists/</link>
-      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/courses/datascience_for_biologists/</guid>
-      <description>&lt;p&gt;This website contains all materials used in BIOL 01301 Spring 2020 at Rowan University with Dr. Spielman. This course now meets remotely, but used to meet Monday 12:30-1:45 in SCI 239, Wednesday 12:30-1:45 in SCI 226, and Thursday 11-1:45 in SCI 239.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;All grading and assignment submissions (unless otherwise stated) will be hosted on &lt;a href=&#34;https://rowan.blackboard.com/&#34;&gt;Blackboard&lt;/a&gt;, but course materials will be posted on this site and/or within the &lt;a href=&#34;https://rstudio.cloud&#34;&gt;rstudio.cloud&lt;/a&gt; BIOL01301 space.&lt;/strong&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;key-documents-and-links&#34;&gt;Key documents and links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/datascience_postcovid.pdf&#34;&gt;Download this ANNOUNCEMENT AND GENERAL INFO document&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://calendar.google.com/calendar?cid=c3R1ZGVudHMucm93YW4uZWR1X20yaWZ1YTUyaXAxcnNtNDAyNmc4ZHNldmI4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&#34;&gt;Add the class google calendar&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../introevol/logistics/google_calendar_instructions.pdf&#34;&gt;Instructions for using google calendar for appointments&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../introevol/logistics/slack_google_instructions.pdf&#34;&gt;Instructions for integrating Google Calendar with Slack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://join.slack.com/t/datasci-4-biologists/shared_invite/zt-cja6k48h-Eo2vQjroUrT5sah2i7Di2A&#34;&gt;Join the class Slack workspace&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;./Spring2020_Spielman_Syllabus_DataScience_COVID.pdf&#34;&gt;Download the UPDATED course syllabus&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;./regrade_policy.docx&#34;&gt;Download the regrade form&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/tidytuesday_instructions.pdf&#34;&gt;#TidyTuesday Extra Credit Instructions&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;online-books-and-resources&#34;&gt;Online Books and Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://serialmentor.com/dataviz/&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; by Claus O. Wilke&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; by Garrett Grolemund and Hadley Wickham&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://socviz.co/&#34;&gt;Data Visualization: A practical Introduction&lt;/a&gt; by Kieran Healy&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;&lt;code&gt;tidyverse&lt;/code&gt; homepage, official documentation, and cheatsheets&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stat545.com/&#34;&gt;STAT545 Resources (&lt;strong&gt;EXCELLENT&lt;/strong&gt; background)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rafalab.github.io/dsbook/&#34;&gt;Introduction to Data Science e-book&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://resources.rstudio.com/&#34;&gt;RStudio Resources (all levels of videos/tutorials)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://callingbullshit.org/&#34;&gt;Calling Bullshit Course Website&lt;/a&gt; by Carl Bergstrom and Jevin West&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt; 
-&lt;h2 id=&#34;post-spring-break-class-schedule-and-materials&#34;&gt;Post-Spring Break Class Schedule and Materials&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Materials are subject to change up until the Monday of the given week. Below is a ROUGH OUTLINE of what we&amp;rsquo;ll be doing.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;UPDATED DEADLINES&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;tidyr&lt;/code&gt; assignment due &lt;strong&gt;Sunday March 29th 11:59 pm on Blackboard&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Midterm Project&lt;/code&gt; due as Pull Request &lt;strong&gt;Sunday March 29th at 11:59 pm&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;10% deduction deadline will be &lt;strong&gt;Wednesday April 1st 11:59 pm&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Additional 5% deduction for any additional late day (i.e. Thursday 4/2 submission by 11:59 pm has 15% deduction, etc.)
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;week-of-33020&#34;&gt;Week of 3/30/20&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture videos and associated materials
-&lt;ul&gt;
-&lt;li&gt;Concepts in Hypothesis testing and P-values: &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/intro_hyptest_pvalue.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Introduction to linear regression: [Tutorial](&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/lm_tutorial.html&#34;&gt;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/lm_tutorial.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/9/20 at 11:59 pm&lt;/em&gt; on Blackboard
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/08-intro-regression.Rmd&#34;&gt;Rmarkdown file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/08-intro-regression.html&#34;&gt;HTML version&lt;/a&gt;
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;week-of-4620&#34;&gt;Week of 4/6/20&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture videos and associated materials
-&lt;ul&gt;
-&lt;li&gt;Linear regression II and concepts in model selection: &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/lm_model_selection.html&#34;&gt;Tutorial&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;See Slack &lt;code&gt;#general&lt;/code&gt; for some lecture clarifications: &lt;a href=&#34;https://datasci-4-biologists.slack.com/archives/CV6CLQTGQ/p1586197021002800&#34;&gt;one&lt;/a&gt; and &lt;a href=&#34;https://datasci-4-biologists.slack.com/archives/CV6CLQTGQ/p1586197682004100&#34;&gt;two&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Introdution to model evaluation: &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_modelevaluation.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/16/20 at 11:59 pm&lt;/em&gt; on Blackboard
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/09-model-evaluation.Rmd&#34;&gt;Rmarkdown file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/09-model-evaluation.html&#34;&gt;HTML version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;week-of-41320&#34;&gt;Week of 4/13/20&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture videos and associated materials
-&lt;ul&gt;
-&lt;li&gt;Binary classification with logistic regression: &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_logistic1.pdf&#34;&gt;PDF slides&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/slides/slides_logistic1.Rmd&#34;&gt;Rmd slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ROC Curves for evaluating logistic regression: &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_logistic2.pdf&#34;&gt;PDF slides&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/slides/slides_logistic2.Rmd&#34;&gt;RMD slides&lt;/a&gt; (TYPOS FIXED IN SLIDES!!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/23/20 at 11:59 pm&lt;/em&gt; on Blackboard
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/10-logistic.Rmd&#34;&gt;Rmarkdown file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/10-logistic.html&#34;&gt;HTML version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;week-of-42020&#34;&gt;Week of 4/20/20&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture videos and associated materials
-&lt;ul&gt;
-&lt;li&gt;k-means clustering: &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_clustering.pdf&#34;&gt;PDF slides&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/slides/slides_clustering.Rmd&#34;&gt;Rmd slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dimension reduction with PCA: &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_pca.pdf&#34;&gt;PDF slides&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/slides/slides_pca.Rmd&#34;&gt;Rmd slides&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Assignment due &lt;em&gt;Thursday 4/30/20 at 11:59 pm&lt;/em&gt; on Blackboard
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/11-clustering-pca.Rmd&#34;&gt;Rmarkdown file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/11-clustering-pca.Rmd&#34;&gt;HTML version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;week-of-42720&#34;&gt;Week of 4/27/20&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture videos and associated materials
-&lt;ul&gt;
-&lt;li&gt;Introduction to Shiny: &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/materials/demo_app.R&#34;&gt;Baseline demo app&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/materials/demo_app_filledin.R&#34;&gt;Fleshed-out demo app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wednesday will START DOING THE FINAL ASSIGNMENT!! Thursday we will also work on the final assignment!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/tutorial/&#34;&gt;RStudio Shiny Tutorial&lt;/a&gt; (this is &lt;em&gt;really&lt;/em&gt; good)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h4 id=&#34;final-assignmenthttpsgithubcomsjspielmandatascience_final_assignment-fork-to-your-github-account&#34;&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_final_assignment&#34;&gt;Final Assignment&lt;/a&gt; (Fork to your github account!)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Counts as TWO assignment grades (aka if you don&amp;rsquo;t do this, you are still stuck with a 0 grade on an assignment. Get it?)&lt;/li&gt;
-&lt;li&gt;Due &lt;em&gt;Tuesday 5/12/20 at 11:59 pm as github PR&lt;/em&gt;. &lt;strong&gt;Absolutely NO extensions are possible for this submission due to University grade deadlines.&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;BONUS DEADLINE!&lt;/em&gt; Submit by Friday 5/8/20 by 11:59 pm as github PR for an &lt;em&gt;automatic extra 10%!!&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Attend the &lt;strong&gt;live Thursday session on 4/30/30 from 11:30 am - 1:45 pm&lt;/strong&gt; - we will do about 1/3 of the final assignment TOGETHER! You don&amp;rsquo;t want to miss this!!!!!&lt;/li&gt;
-&lt;li&gt;During the normal final exam time, &lt;strong&gt;Thursday 5/6/20 from 12:30pm - 2:30pm&lt;/strong&gt;, there will be an optional ZOOM SESSION (see class calendar) to come ask questions for completing this assignment. &lt;strong&gt;REALLY REALLY HIGHLY RECOMMENDED.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;pre-spring-break-class-schedule-and-materials&#34;&gt;Pre-Spring Break Class Schedule and Materials&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Materials are subject to change up until the day of class based on student progress. Any change in deadlines will only be to &lt;em&gt;postpone&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Link to midterm project: &lt;a href=&#34;https://github.com/sjspielman/datascience_midterm/&#34;&gt;https://github.com/sjspielman/datascience_midterm/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;No.&lt;/th&gt;
-&lt;th&gt;Day/Date&lt;/th&gt;
-&lt;th&gt;&lt;div style=&#34;width:250px&#34;&gt;Topic and materials&lt;/div&gt;&lt;/th&gt;
-&lt;th&gt;Background Reading&lt;/th&gt;
-&lt;th&gt;Assignment DUE&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;W 1/22&lt;/td&gt;
-&lt;td&gt;Introduction/Syllabus Day&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;R 1/23&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/01-introduction-base-R.html&#34;&gt;Introduction to R and RStudio&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;M 1/27&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;./slides/slides_introdata.pdf&#34;&gt;Types of data and visualizations, I&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Two blog posts on types of data: &lt;br&gt; 1. &lt;a href=&#34;https://towardsdatascience.com/data-types-in-statistics-347e152e8bee&#34;&gt;Towards Data Science&lt;/a&gt; &lt;br&gt; 2. &lt;a href=&#34;http://scaryscientist.blogspot.com/2015/02/classification-of-data-types.html&#34;&gt;Scary Scientist&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;W 1/29&lt;/td&gt;
-&lt;td&gt;Types of data and visualizations, II&lt;/td&gt;
-&lt;td&gt;1. Read chapters 5, 6, 7, and 10 from &amp;ldquo;Fundamentals of Data Visualization&amp;rdquo; &lt;br&gt; 2. &lt;a href=&#34;https://rpubs.com/crazyhottommy/sina-plot&#34;&gt;Blog post on comparing plot types&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;R 1/30&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/02-introduction-ggplot2.html&#34;&gt;Introduction to &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt; &lt;br&gt;&lt;br&gt; &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/rmd_lessons/02-introduction-ggplot2-script-template.R&#34;&gt;R script template&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;M 2/3&lt;/td&gt;
-&lt;td&gt;Communicating with (in)effective visualizations&lt;/td&gt;
-&lt;td&gt;Watch &lt;a href=&#34;https://callingbullshit.org/videos.html&#34;&gt;&amp;ldquo;Lecture 6: Data Visualization&amp;rdquo; Videos&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;./assignments/viz_critique_assignment.pdf&#34;&gt;Evaluating Data Visualization Assignment&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;W 2/5&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/03-introduction-rmarkdown.html&#34;&gt;Introduction to RMarkdown&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;R 2/6&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/04-more-ggplot2.html&#34;&gt;More practice with &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Read chapter 21 from &amp;ldquo;Fundamentals of Data Visualization&amp;rdquo;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;Introduction to ggplot2&lt;/code&gt; assignment due on Blackboard as an R script.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;M 2/10&lt;/td&gt;
-&lt;td&gt;Reading, writing, and creating datasets&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;W 2/12&lt;/td&gt;
-&lt;td&gt;Manipulating data with &lt;code&gt;dplyr&lt;/code&gt; I&lt;/td&gt;
-&lt;td&gt;Background resources: &lt;br&gt; 1. &lt;a href=&#34;https://dplyr.tidyverse.org/articles/dplyr.html&#34;&gt;&lt;code&gt;dplyr&lt;/code&gt; vignette&lt;/a&gt; &lt;br&gt; 2. &lt;a href=&#34;https://stat545.com/dplyr-intro.html&#34;&gt;&lt;code&gt;dplyr&lt;/code&gt; Intro from STAT545&lt;/a&gt; &lt;br&gt; 3. &lt;a href=&#34;https://rgup.gitlab.io/research_cycle/04_dplyr.html&#34;&gt;GET MORE PRACTICE HERE!&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;R 2/13&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/05-introduction-dplyr.html&#34;&gt;Data manipulation with &lt;code&gt;dplyr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;More practice with ggplot2&lt;/code&gt; assignment due on Blackboard as an Rmarkdown file (NOT the knitted HTML and/or PDF!!)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;M 2/17&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/raw/master/slides/slides_statgeom_bestpractices.pdf&#34;&gt;Best practices and other miscellany&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2020/object-of-type-closure-is-not-subsettable-jenny-bryan&#34;&gt;Watch rstudio::conf 2020 talk on debugging&lt;/a&gt; with &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/raw/master/materials/jenny_bryan_talk2020.pdf&#34;&gt;&amp;ldquo;cheatsheet&amp;rdquo;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;W 2/19&lt;/td&gt;
-&lt;td&gt;Manipulating data with &lt;code&gt;dplyr&lt;/code&gt; II&lt;/td&gt;
-&lt;td&gt;Background resources &lt;br&gt; 1. &lt;a href=&#34;https://dplyr.tidyverse.org/articles/two-table.html&#34;&gt;&lt;code&gt;dplyr&lt;/code&gt; two-table vignette&lt;/a&gt; &lt;br&gt; 2. &lt;a href=&#34;https://stat545.com/multiple-tibbles.html&#34;&gt;Ch 14-15 from STAT545&lt;/a&gt; &lt;br&gt; 3. &lt;a href=&#34;https://rgup.gitlab.io/research_cycle/05_joins.html&#34;&gt;GET MORE PRACTICE HERE&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;R 2/20&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/06-more-wrangling.html&#34;&gt;Data manipulation with &lt;code&gt;dplyr&lt;/code&gt; II&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;Data manipulation with dplyr&lt;/code&gt; assignment due on Blackboard as an Rmd file.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;M 2/24&lt;/td&gt;
-&lt;td&gt;Regroup and Project Introduction&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;W 2/26&lt;/td&gt;
-&lt;td&gt;Tidying data with &lt;code&gt;tidyr&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;1. Read &lt;a href=&#34;https://vita.had.co.nz/papers/tidy-data.pdf&#34;&gt;Tidy Data Paper&lt;/a&gt;  &lt;br&gt; 2. Look over &lt;a href=&#34;https://tidyr.tidyverse.org/articles/tidy-data.html&#34;&gt;&lt;code&gt;tidyr&lt;/code&gt; vignette&lt;/a&gt; &lt;strong&gt;MAKE SURE ITS &lt;code&gt;&amp;gt;=tidyr1.0.0&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17&lt;/td&gt;
-&lt;td&gt;R 2/27&lt;/td&gt;
-&lt;td&gt;Working with tidy and untidy data  &lt;br&gt; &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/tree/master/tidyr_lab_materials&#34;&gt;Link to full materials&lt;/a&gt; &lt;br&gt; HINT: use &lt;code&gt;read_csv2()&lt;/code&gt; for the planets question!!&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;Data manipulation with dplyr II&lt;/code&gt; assignment due on Blackboard&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;td&gt;M 3/2&lt;/td&gt;
-&lt;td&gt;Introduction to Version Control with GitHub, and reproducibility&lt;/td&gt;
-&lt;td&gt;0. &lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&#34;&gt;What is VC?&lt;/a&gt; ; &lt;a href=&#34;https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/&#34;&gt;Tutorial - IGNORE BRANCHES&lt;/a&gt; 1. &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/parasite_editorial_NEJM_nonsense.pdf&#34;&gt;Data sharing&lt;/a&gt; editorial from NEJM &lt;br&gt; 2. &lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/parasite_rebuttal_greene.pdf&#34;&gt;One of many rebuttals to NEJM&lt;/a&gt; &lt;br&gt; 3. &lt;a href=&#34;https://www.statnews.com/2016/01/26/research-parasites-nejm/&#34;&gt;Another rebuttal&lt;/a&gt; &lt;br&gt; 4. &lt;a href=&#34;https://blogs.plos.org/plos/2020/01/peer-review-in-service-of-open-science/&#34;&gt;Concepts in reproducibility and peer review&lt;/a&gt; &lt;br&gt; 5. &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410/&#34;&gt;Reflections on sci-hub&lt;/a&gt; &lt;br&gt; 6. &lt;a href=&#34;https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-020-0552-2&#34;&gt;The state of affairs is grim&lt;/a&gt; &lt;br&gt; 7. &lt;a href=&#34;https://www.nature.com/articles/d41586-020-00309-9&#34;&gt;But could be hopefully improving!&lt;/a&gt; &lt;br&gt; 8. &lt;a href=&#34;https://hoffman.bitbucket.io/2019/nih-data-management.html&#34;&gt;Michael Hoffman has good thoughts&lt;/a&gt; &lt;br&gt; 9.Two twitter threads that showcase what bothers Dr. Spielman the most: &lt;a href=&#34;https://twitter.com/sexchrlab/status/1224918781341777920&#34;&gt;one&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/bhaibeka/status/1212777404256706560&#34;&gt;two&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;19&lt;/td&gt;
-&lt;td&gt;W 3/4&lt;/td&gt;
-&lt;td&gt;Introduction to UNIX&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/unix_cheatsheet.html&#34;&gt;Cheatsheet&lt;/a&gt; &lt;br&gt; &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/unix_exerices.html&#34;&gt;Exercises&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;20&lt;/td&gt;
-&lt;td&gt;R 3/5&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/github_exercise.html&#34;&gt;Conducting a reproducible analyses with &lt;code&gt;git&lt;/code&gt;/github&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/github_cheatsheet.html&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;21&lt;/td&gt;
-&lt;td&gt;M 3/9&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/slides/slides_stringr.pdf&#34;&gt;Working with strings with &lt;code&gt;stringr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1. &lt;a href=&#34;https://stringr.tidyverse.org/reference/index.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; reference&lt;/a&gt; &lt;br&gt; 2.&lt;a href=&#34;https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html&#34;&gt;&lt;code&gt;stringr&lt;/code&gt; vignette&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;END OF IN-PERSON INSTRUCTION&lt;/strong&gt;&lt;/p&gt;
-&lt;!--
-22    | W 3/11   | Regular expressions | [Regular expressions with `stringr`](https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html) | None
-23    | R 3/12   | Midterm project &#34;study hall&#34; | None | None
---    | M 3/16 - F 3/20 | **SPRING BREAK!** | None |  **Midterm Project due by SUNDAY 3/15 at 11:59 pm as PULL REQUEST for full credit** &lt;br&gt; **Due by Wednesday 3/18 at 11:59 pm as PULL REQUEST for 10% deduction** &lt;br&gt; **Or, due never for no credit. Not recommended.**  
-24    | M 3/23  | Introduction to hypothesis tests and modeling
-25    | W 3/25  | Permutation and randomization testing
-26    | R 3/26  | [Analyzing data with permutation tests] |  TBD | At long last, `Working with untidy and tidy data` assignment due on Blackboard by 10 am
-27    | M 3/29  | Linear modeling I 
-28    | W 4/1   | Linear modeling II
-29    | R 4/2   | [Analyzing data with linear models]
-30    | M 4/6   | Binary classification and logistic regression
-31    | W 4/8   | Strategies for model evaluation
-32    | R 4/9   | [Analyzing data with logistic regression]
-33    | M 4/13  | Classification: Approaches to clustering data
-34    | W 4/15  | Classification: Approaches to dimension reduction
-35    | R 4/16  | [Clustering and dimension reduction Lab]
-36    | M 4/20  | Communication and reproducibility with R packages
-37    | W 4/22  | Communication with blogposts
-38    | R 4/23  | [Communication with shiny]
-39    | M 4/27  | Grab bag!
-40    | W 4/29  | *Open day to work on final project*
---    | W 5/6   | **Final project due and &#34;presentations&#34; party**
---&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
