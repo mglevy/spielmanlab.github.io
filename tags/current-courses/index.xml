@@ -22,8 +22,7 @@
 &lt;h2 id=&#34;key-documents-and-links&#34;&gt;Key documents and links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./logistics/google_calendar_instructions_fall2020_DS.pdf&#34;&gt;Instructions for using google calendar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;./logistics/Fall2020_Spielman_Syllabus_DS.pdf&#34;&gt;Download the course syllabus&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;./regrade_policy.docx&#34;&gt;Download the regrade form&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./logistics/Fall2020_Spielman_Syllabus_DS.pdf&#34;&gt;Download the course syllabus (NOT YET FINALIZED)&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/tidytuesday_instructions.pdf&#34;&gt;#TidyTuesday Extra Credit Instructions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
@@ -34,7 +33,7 @@
 &lt;li&gt;Geared towards programmers but serves as a great general &amp;ldquo;welcome to the Twitter #rstats community&amp;rdquo;!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://serialmentor.com/dataviz/&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; by Claus O. Wilke&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://clauswilke.com/dataviz&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; by Claus O. Wilke&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; by Garrett Grolemund and Hadley Wickham&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://socviz.co/&#34;&gt;Data Visualization: A practical Introduction&lt;/a&gt; by Kieran Healy&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;&lt;code&gt;tidyverse&lt;/code&gt; homepage, official documentation, and cheatsheets&lt;/a&gt;&lt;/li&gt;
@@ -46,23 +45,105 @@
 &lt;br&gt; 
 &lt;h2 id=&#34;class-schedule-and-materials&#34;&gt;Class Schedule and Materials&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we&#39;ll be doing.&lt;/p&gt;
+&lt;p&gt;Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we&amp;rsquo;ll be doing.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;| No. | Day/Date |&lt;div style=&#34;width:250px&#34;&gt;Topic and materials&lt;/div&gt; | Link to in-class exercises | Assignments
-&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
-1     | W 9/2   | Introduction, logistics, and getting to know each other | None | None
-2     | R 9/3   | More class logistics: RStudio Cloud setup | None |
-3     | W 9/9   | Introduction to R | TBD | &lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Introduction to R&amp;rdquo; due TBD &lt;!--Wednesday 9/16/20 by 11:59 pm to Canvas--&gt;
-4     | R 9/10  | Introduction to R continued | TBD |
-5     | M 9/14  | Introduction to R continued | None |
-6     | W 9/16  | Introduction to the &amp;ldquo;grammar of graphics&amp;rdquo;  | TBD
-7     | R 9/17  | Grammar of graphics | TBD | &lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Grammar of graphics&amp;rdquo; due TBD &lt;!--Sunday 9/21/20 by 11:59 pm to Canvas--&gt;
-8     | M 9/21  | Introduction to data &lt;code&gt;ggplot2&lt;/code&gt; | TBD |
-9     | W 9/23  | Introduction to data &lt;code&gt;ggplot2&lt;/code&gt; | TBD |
-10    | R 9/24  | Communicating clearly with figures | TBD |  &lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Introduction to &lt;code&gt;ggplot2&lt;/code&gt;&amp;rdquo; due TBD &lt;!--Wednesday 9/30/20 by 11:59 pm to Canvas--&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No.&lt;/th&gt;
+&lt;th&gt;Day/Date&lt;/th&gt;
+&lt;th&gt;&lt;div style=&#34;width:250px&#34;&gt;Topic&lt;/div&gt;&lt;/th&gt;
+&lt;th&gt;&lt;div style=&#34;width:150px&#34;&gt;In-class materials&lt;/div&gt;&lt;/th&gt;
+&lt;th&gt;&lt;div style=&#34;width:250px&#34;&gt;Recommended Background Reading&lt;/div&gt;&lt;/th&gt;
+&lt;th&gt;&lt;div style=&#34;width:250px&#34;&gt;Assignment&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;W 9/2&lt;/td&gt;
+&lt;td&gt;Introduction, logistics, and getting to know each other&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; Fill out the class survey (link on Canvas) &lt;strong&gt;TODAY&lt;/strong&gt; if you have not yet done so&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;R 9/3&lt;/td&gt;
+&lt;td&gt;More class logistics: RStudio Cloud setup&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;W 9/9&lt;/td&gt;
+&lt;td&gt;Introduction to R&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Introduction to R&amp;rdquo; due TBD &lt;!--Wednesday 9/16/20 by 11:59 pm to Canvas--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;R 9/10&lt;/td&gt;
+&lt;td&gt;Introduction to R continued&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;M 9/14&lt;/td&gt;
+&lt;td&gt;Introduction to R continued&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;W 9/16&lt;/td&gt;
+&lt;td&gt;Introduction to the &amp;ldquo;grammar of graphics&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Chapters 1-5&lt;/em&gt; from &lt;a href=&#34;https://clauswilke.com/dataviz&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;R 9/17&lt;/td&gt;
+&lt;td&gt;Grammar of graphics&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Grammar of graphics&amp;rdquo; due TBD &lt;!--Sunday 9/21/20 by 11:59 pm to Canvas--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;M 9/21&lt;/td&gt;
+&lt;td&gt;Introduction to data &lt;code&gt;ggplot2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;W 9/23&lt;/td&gt;
+&lt;td&gt;Introduction to data &lt;code&gt;ggplot2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;R 9/24&lt;/td&gt;
+&lt;td&gt;Communicating clearly with figures&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Part II: Principles of Figure Design&lt;/em&gt; from &lt;a href=&#34;https://clauswilke.com/dataviz&#34;&gt;Fundamentals of Data Visualization&lt;/a&gt; &lt;br&gt; and &lt;br&gt; &lt;em&gt;Part I: Look at Data&lt;/em&gt; from &lt;a href=&#34;https://socviz.co/lookatdata.html&#34;&gt;Data Visualization: A practical Introduction&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; &amp;ldquo;Introduction to &lt;code&gt;ggplot2&lt;/code&gt;&amp;rdquo; due TBD &lt;!--Wednesday 9/30/20 by 11:59 pm to Canvas--&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;!--
 
-
+This one isn&#39;t so bad: https://rstudio.com/resources/webinars/getting-started-with-r-markdown/
 
 2     | R 1/23   | [Introduction to R and RStudio](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/01-introduction-base-R.html)| None | None
 3     | M 1/27   | [Types of data and visualizations, I](./slides/slides_introdata.pdf)  | Two blog posts on types of data: &lt;br&gt; 1. [Towards Data Science](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee) &lt;br&gt; 2. [Scary Scientist](http://scaryscientist.blogspot.com/2015/02/classification-of-data-types.html)   | None

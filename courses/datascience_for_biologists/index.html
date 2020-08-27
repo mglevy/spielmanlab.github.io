@@ -84,7 +84,7 @@
   
   
   
-  <link rel="stylesheet" href="../../css/academic.min.7b06c1d135840a487e5ddd894fb99f73.css">
+  <link rel="stylesheet" href="../../css/academic.min.1fb188d6638b1778e8eabd02456a0bec.css">
 
   
     
@@ -547,8 +547,7 @@
 <h2 id="key-documents-and-links">Key documents and links</h2>
 <ul>
 <li><a href="./logistics/google_calendar_instructions_fall2020_DS.pdf">Instructions for using google calendar</a></li>
-<li><a href="./logistics/Fall2020_Spielman_Syllabus_DS.pdf">Download the course syllabus</a>.</li>
-<li><a href="./regrade_policy.docx">Download the regrade form</a>.</li>
+<li><a href="./logistics/Fall2020_Spielman_Syllabus_DS.pdf">Download the course syllabus (NOT YET FINALIZED)</a>.</li>
 <li><a href="https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/tidytuesday_instructions.pdf">#TidyTuesday Extra Credit Instructions</a></li>
 </ul>
 <br>
@@ -559,7 +558,7 @@
 <li>Geared towards programmers but serves as a great general &ldquo;welcome to the Twitter #rstats community&rdquo;!</li>
 </ul>
 </li>
-<li><a href="https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a> by Claus O. Wilke</li>
+<li><a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization</a> by Claus O. Wilke</li>
 <li><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Garrett Grolemund and Hadley Wickham</li>
 <li><a href="https://socviz.co/">Data Visualization: A practical Introduction</a> by Kieran Healy</li>
 <li><a href="https://www.tidyverse.org/"><code>tidyverse</code> homepage, official documentation, and cheatsheets</a></li>
@@ -571,23 +570,105 @@
 <br> 
 <h2 id="class-schedule-and-materials">Class Schedule and Materials</h2>
 <blockquote>
-<p>Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we'll be doing.</p>
+<p>Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we&rsquo;ll be doing.</p>
 </blockquote>
-<p>| No. | Day/Date |<div style="width:250px">Topic and materials</div> | Link to in-class exercises | Assignments
-&mdash;&mdash;|&mdash;&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
-1     | W 9/2   | Introduction, logistics, and getting to know each other | None | None
-2     | R 9/3   | More class logistics: RStudio Cloud setup | None |
-3     | W 9/9   | Introduction to R | TBD | <strong>Assigned:</strong> &ldquo;Introduction to R&rdquo; due TBD <!--Wednesday 9/16/20 by 11:59 pm to Canvas-->
-4     | R 9/10  | Introduction to R continued | TBD |
-5     | M 9/14  | Introduction to R continued | None |
-6     | W 9/16  | Introduction to the &ldquo;grammar of graphics&rdquo;  | TBD
-7     | R 9/17  | Grammar of graphics | TBD | <strong>Assigned:</strong> &ldquo;Grammar of graphics&rdquo; due TBD <!--Sunday 9/21/20 by 11:59 pm to Canvas-->
-8     | M 9/21  | Introduction to data <code>ggplot2</code> | TBD |
-9     | W 9/23  | Introduction to data <code>ggplot2</code> | TBD |
-10    | R 9/24  | Communicating clearly with figures | TBD |  <strong>Assigned:</strong> &ldquo;Introduction to <code>ggplot2</code>&rdquo; due TBD <!--Wednesday 9/30/20 by 11:59 pm to Canvas--></p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Day/Date</th>
+<th><div style="width:250px">Topic</div></th>
+<th><div style="width:150px">In-class materials</div></th>
+<th><div style="width:250px">Recommended Background Reading</div></th>
+<th><div style="width:250px">Assignment</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>W 9/2</td>
+<td>Introduction, logistics, and getting to know each other</td>
+<td>None</td>
+<td>None</td>
+<td><strong>Assigned:</strong> Fill out the class survey (link on Canvas) <strong>TODAY</strong> if you have not yet done so</td>
+</tr>
+<tr>
+<td>2</td>
+<td>R 9/3</td>
+<td>More class logistics: RStudio Cloud setup</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>3</td>
+<td>W 9/9</td>
+<td>Introduction to R</td>
+<td>TBD</td>
+<td>None</td>
+<td><strong>Assigned:</strong> &ldquo;Introduction to R&rdquo; due TBD <!--Wednesday 9/16/20 by 11:59 pm to Canvas--></td>
+</tr>
+<tr>
+<td>4</td>
+<td>R 9/10</td>
+<td>Introduction to R continued</td>
+<td>TBD</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>5</td>
+<td>M 9/14</td>
+<td>Introduction to R continued</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>6</td>
+<td>W 9/16</td>
+<td>Introduction to the &ldquo;grammar of graphics&rdquo;</td>
+<td>TBD</td>
+<td><em>Chapters 1-5</em> from <a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization</a></td>
+<td>None</td>
+</tr>
+<tr>
+<td>7</td>
+<td>R 9/17</td>
+<td>Grammar of graphics</td>
+<td>TBD</td>
+<td>None</td>
+<td><strong>Assigned:</strong> &ldquo;Grammar of graphics&rdquo; due TBD <!--Sunday 9/21/20 by 11:59 pm to Canvas--></td>
+</tr>
+<tr>
+<td>8</td>
+<td>M 9/21</td>
+<td>Introduction to data <code>ggplot2</code></td>
+<td>TBD</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>9</td>
+<td>W 9/23</td>
+<td>Introduction to data <code>ggplot2</code></td>
+<td>TBD</td>
+<td>None</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>10</td>
+<td>R 9/24</td>
+<td>Communicating clearly with figures</td>
+<td>TBD</td>
+<td><em>Part II: Principles of Figure Design</em> from <a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization</a> <br> and <br> <em>Part I: Look at Data</em> from <a href="https://socviz.co/lookatdata.html">Data Visualization: A practical Introduction</a></td>
+<td><strong>Assigned:</strong> &ldquo;Introduction to <code>ggplot2</code>&rdquo; due TBD <!--Wednesday 9/30/20 by 11:59 pm to Canvas--></td>
+</tr>
+</tbody>
+</table>
 <!--
 
-
+This one isn't so bad: https://rstudio.com/resources/webinars/getting-started-with-r-markdown/
 
 2     | R 1/23   | [Introduction to R and RStudio](http://htmlpreview.github.io/?https://github.com/sjspielman/datascience_for_biologists/blob/master/rmd_lessons/01-introduction-base-R.html)| None | None
 3     | M 1/27   | [Types of data and visualizations, I](./slides/slides_introdata.pdf)  | Two blog posts on types of data: <br> 1. [Towards Data Science](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee) <br> 2. [Scary Scientist](http://scaryscientist.blogspot.com/2015/02/classification-of-data-types.html)   | None
