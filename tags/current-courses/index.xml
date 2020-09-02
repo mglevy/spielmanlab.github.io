@@ -22,7 +22,7 @@
 &lt;h2 id=&#34;key-documents-and-links&#34;&gt;Key documents and links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;./logistics/google_calendar_instructions_fall2020_DS.pdf&#34;&gt;Instructions for using google calendar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;./logistics/Fall2020_Spielman_Syllabus_DS.pdf&#34;&gt;Download the course syllabus (NOT YET FINALIZED)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./logistics/Fall2020_Spielman_Syllabus_DS.pdf&#34;&gt;Download the course syllabus&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sjspielman/datascience_for_biologists/blob/master/materials/tidytuesday_instructions.pdf&#34;&gt;#TidyTuesday Extra Credit Instructions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
@@ -45,7 +45,7 @@
 &lt;br&gt; 
 &lt;h2 id=&#34;class-schedule-and-materials&#34;&gt;Class Schedule and Materials&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we&amp;rsquo;ll be doing.&lt;/p&gt;
+&lt;p&gt;Materials are subject to change up until the Monday of the EACH week. Below is a ROUGH OUTLINE of what we&#39;ll be doing.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -62,7 +62,7 @@
 &lt;tr&gt;
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;W 9/2&lt;/td&gt;
-&lt;td&gt;Introduction, logistics, and getting to know each other&lt;/td&gt;
+&lt;td&gt;Introduction and logistics&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; Fill out the class survey (link on Canvas) &lt;strong&gt;TODAY&lt;/strong&gt; if you have not yet done so&lt;/td&gt;
@@ -70,7 +70,7 @@
 &lt;tr&gt;
 &lt;td&gt;2&lt;/td&gt;
 &lt;td&gt;R 9/3&lt;/td&gt;
-&lt;td&gt;More class logistics: RStudio Cloud setup&lt;/td&gt;
+&lt;td&gt;More class logistics and awkward introductions&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
