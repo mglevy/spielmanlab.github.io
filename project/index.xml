@@ -81,7 +81,7 @@
 &lt;td&gt;Introduction to R&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://rowanbiosci.shinyapps.io/intro_R/&#34;&gt;Interactive Exercises&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/fall2020/assignments/hw1.R&#34;&gt;&amp;ldquo;Introduction to R&amp;rdquo;&lt;/a&gt; due Wednesday 9/16/20 by 3:00 pm to Canvas &lt;br&gt; Copy/paste this SINGLE LINE (looks like 2 - it&amp;rsquo;s only 1!!) into the &lt;strong&gt;TERMINAL&lt;/strong&gt; tab in RStudio Cloud to get the assignment:&lt;br&gt; &lt;code&gt;wget https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/fall2020/assignments/hw1.R&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Assigned:&lt;/strong&gt; &lt;a href=&#34;https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/fall2020/assignments/hw1.R&#34;&gt;&amp;ldquo;Introduction to R&amp;rdquo;&lt;/a&gt; due Wednesday 9/16/20 by 3:00 pm to Canvas &lt;br&gt; Copy/paste this SINGLE LINE (looks like 2 or 3 - it&amp;rsquo;s only 1!!) into the &lt;strong&gt;TERMINAL&lt;/strong&gt; tab in RStudio Cloud to get the assignment:&lt;br&gt; &lt;code&gt;wget https://raw.githubusercontent.com/sjspielman/datascience_for_biologists/master/fall2020/assignments/hw1.R&lt;/code&gt; &lt;br&gt; &lt;a href=&#34;https://youtu.be/kvVqIlTlHN4&#34;&gt;Video: How to do the HW in RStudio Cloud&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;4&lt;/td&gt;
