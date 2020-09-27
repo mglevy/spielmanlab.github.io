@@ -5,7 +5,7 @@
     <link>/publication.html</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>dragon: A New Tool for Exploring Redox Evolution Preserved in the Mineral Record</title>
-      <link>/publication/2020_spielmanmoore_eartharxiv.html</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020_spielmanmoore_eartharxiv.html</guid>
+      <link>/publication/2020_spielmanmoore_fes.html</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020_spielmanmoore_fes.html</guid>
       <description></description>
     </item>
     
